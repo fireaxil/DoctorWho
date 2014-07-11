@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    tools:context=".MainActivity$PlaceholderFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <Button
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/icon_change"
+            android:textSize="20dp"
+            android:onClick="iconChange"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:textStyle="bold"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quick"
+            android:id="@+id/button3"
+            android:onClick="quickSel"
+            android:textSize="20dp"
+            android:layout_below="@+id/button4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <Button
+            android:textStyle="bold"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/custom"
+            android:onClick="customWall"
+            android:textSize="20dp"
+            android:id="@+id/button4"
+            android:layout_below="@+id/button2"
+            android:layout_marginBottom="10dp"
+            android:layout_alignRight="@+id/button3"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignStart="@+id/button3" />
+
+        <Button
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wallpaper"
+            android:onClick="wallpaper"
+            android:id="@+id/button2"
+            android:layout_below="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignEnd="@+id/button" />
+
+        <Button
+            android:textStyle="bold"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:id="@+id/email"
+            android:text="@string/email"
+            android:textSize="20dp"
+            android:onClick="email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignStart="@+id/button3" />
+
+        <TextView
+            android:text="@string/who"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

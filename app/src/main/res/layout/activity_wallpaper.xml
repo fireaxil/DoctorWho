@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    tools:context="com.chrisbecca.doctorwhoiconpack.Wallpaper">
+
+
+
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+    <Button android:id="@+id/apply"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/applyWall"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/apply"
+        >
+
+    </Gallery>
+
+
+
+</RelativeLayout>

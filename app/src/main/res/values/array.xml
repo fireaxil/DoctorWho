@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_array">
+        <item>White</item>
+        <item>Black</item>
+        <item>Tardis Blue</item>
+
+    </string-array>
+    <string-array name="quick">
+        <item>APEX</item>
+        <item>NOVA</item>
+        <item>GO</item>
+        <item>ADW</item>
+        <item>SMART</item>
+        <item>HOLO</item>
+        <item>ACTION</item>
+    </string-array>
+
+</resources>

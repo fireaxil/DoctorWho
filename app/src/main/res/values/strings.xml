@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Doctor Who Icons</string>
+    <string name="theme_title">Doctor Who Icon Pack</string>
+    <string name="developer_name">By Rebecca and Christian</string>
+    <string name="developer_link"></string>
+    <string name="theme_description">Work in progress.\n\n  \n\nEmail: sandvice@gmail.com</string>
+    <!-- Theme settings -->
+
+    <bool name="config_iconpack">true</bool>
+    <bool name="config_apexskin">false</bool>
+
+    <!-- The feature graphic will appear above the theme description -->
+    <string name="theme_feature">feature</string>
+
+    <!-- Each theme may have up to 5 preview images -->
+    <string name="theme_preview1">preview1</string>
+    <string name="who">Doctor Who Icon Pack</string>
+    <string name="theme_preview2">preview2</string>
+    <string name="thank">Thank you for downloading!</string>
+    <string name="action_settings">Settings</string>
+    <string name="icon_change">Change Icon Color</string>
+    <string name="email">Request Icons</string>
+    <string name="title_activity_app_picker">AppPicker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="submit">Submit</string>
+    <string name="wallpaper">Choose Wallpaper</string>
+    <string name="title_activity_wallpaper">Wallpaper</string>
+    <string name="applyWall">Apply</string>
+    <string name="custom">Background Request</string>
+    <string name="title_activity_custom_submit">CustomSubmit</string>
+    <string name="hint">Have an idea for a custom background? Submit it here.</string>
+    <string name="quick">Quick apply</string>
+    <string name="about">About Us</string>
+    <string name="aboutus">We do this and this and this and that!</string>
+
+</resources>

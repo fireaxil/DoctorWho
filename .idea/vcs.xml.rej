@@ -1,0 +1,9 @@
+diff a/.idea/vcs.xml b/.idea/vcs.xml	(rejected hunks)
+@@ -3,7 +3,6 @@
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+     <mapping directory="$PROJECT_DIR$/DoctorWho" vcs="Git" />
+-    <mapping directory="$PROJECT_DIR$/app/src/main/java/com/chrisbecca/doctorwhoiconpack" vcs="Git" />
+   </component>
+ </project>
+ 
